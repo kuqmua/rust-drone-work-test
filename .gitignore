@@ -15,5 +15,5 @@ Cargo.lock
 /fltk-client/target/
 /fltk-client/Cargo.lock
 
-/server/target/
-/server/Cargo.lock
+/actix-web-server/target/
+/actix-web-server/Cargo.lock
