@@ -26,3 +26,4 @@ Cargo.lock
 
 /yew-client/target/
 /yew-client/Cargo.lock
+/yew-client/dist
