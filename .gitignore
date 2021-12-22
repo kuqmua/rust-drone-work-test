@@ -23,3 +23,6 @@ Cargo.lock
 
 /warp-server/target/
 /warp-server/Cargo.lock
+
+/yew-client/target/
+/yew-client/Cargo.lock
