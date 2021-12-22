@@ -18,6 +18,9 @@ Cargo.lock
 /fltk-client/target/
 /fltk-client/Cargo.lock
 
+/relm4-client/target/
+/relm4-client/Cargo.lock
+
 /rocket-server/target/
 /rocket-server/Cargo.lock
 
