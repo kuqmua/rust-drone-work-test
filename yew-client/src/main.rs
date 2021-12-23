@@ -1,7 +1,9 @@
+#![recursion_limit = "640"]
 use yew::prelude::*;
 
 enum Msg {
     AddOne,
+    SubstractOne
 }
 
 struct Model {
@@ -26,6 +28,10 @@ impl Component for Model {
                 // re-render for it to appear on the page
                 true
             }
+            Msg::SubstractOne => {
+                self.value -= 1;
+                true
+            }
         }
     }
 
@@ -33,9 +39,10 @@ impl Component for Model {
         // This gives us a component's "`Scope`" which allows us to send messages, etc to the component.
         let link = ctx.link();
         html! {
-            <div>
+            <div style="display: flex; justify-content: center; align-items: center">
                 <button onclick={link.callback(|_| Msg::AddOne)}>{ "+1" }</button>
                 <p>{ self.value }</p>
+                <button onclick={link.callback(|_| Msg::SubstractOne)}>{ "-1" }</button>
             </div>
         }
     }
