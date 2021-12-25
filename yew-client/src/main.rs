@@ -34,20 +34,10 @@ impl Component for Model {
               <div style="display: flex; justify-content: center; align-items: center; width: 50%; height: 50vh; background-color: red">
                 <button onclick={link.callback(|_| Msg::AddOne)}>{ "+1" }</button>
                 <p>{ self.value }</p>
-                 <select>
-                 <option value="0">{"Select car:"}</option>
-                 <option value="1">{"Audi"}</option>
-                 <option value="2">{"BMW"}</option>
-                 <option value="3">{"Citroen"}</option>
-                 <option value="4">{"Ford"}</option>
-                 <option value="5">{"Honda"}</option>
-                 <option value="6">{"Jaguar"}</option>
-                 <option value="7">{"Land Rover"}</option>
-                 <option value="8">{"Mercedes"}</option>
-                 <option value="9">{"Mini"}</option>
-                 <option value="10">{"Nissan"}</option>
-                 <option value="11">{"Toyota"}</option>
-                 <option value="12">{"Volvo"}</option>
+                 <select onchange={link.callback(|_| Msg::AddOne)}>
+                 <option value="0">{"Local"}</option>
+                 <option value="1">{"Mongo"}</option>
+                 <option value="2">{"Postgres"}</option>
                  </select>
               </div>
             </div>
