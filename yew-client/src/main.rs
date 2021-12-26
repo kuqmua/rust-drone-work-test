@@ -100,14 +100,14 @@ impl Component for Model {
             <span aria-hidden="true" class="MuiFormLabel-asterisk MuiInputLabel-asterisk">{" *"}</span>
             </label>
             <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl">
-            <input 
-            aria-invalid="false" 
-            autocomplete="email" 
-            id="email" 
-            name="email" 
-            // required="" 
-            type="text" 
-            class="MuiInputBase-input MuiOutlinedInput-input" 
+            <input
+            aria-invalid="false"
+            autocomplete="email"
+            id="email"
+            name="email"
+            // required=""
+            type="text"
+            class="MuiInputBase-input MuiOutlinedInput-input"
             // value=""
             />
             <fieldset aria-hidden="true" class="PrivateNotchedOutline-root-5 MuiOutlinedInput-notchedOutline">
@@ -125,14 +125,14 @@ impl Component for Model {
             <span aria-hidden="true" class="MuiFormLabel-asterisk MuiInputLabel-asterisk">{" *"}</span>
             </label>
             <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl">
-            <input 
-            aria-invalid="false" 
-            autocomplete="current-password" 
-            id="password" 
-            name="password" 
-            // required="" 
-            type="password" 
-            class="MuiInputBase-input MuiOutlinedInput-input" 
+            <input
+            aria-invalid="false"
+            autocomplete="current-password"
+            id="password"
+            name="password"
+            // required=""
+            type="password"
+            class="MuiInputBase-input MuiOutlinedInput-input"
             // value=""
             />
             <fieldset aria-hidden="true" class="PrivateNotchedOutline-root-5 MuiOutlinedInput-notchedOutline">
@@ -147,13 +147,23 @@ impl Component for Model {
             <label class="MuiFormControlLabel-root">
             <span class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-9 MuiCheckbox-root MuiCheckbox-colorPrimary MuiIconButton-colorPrimary" aria-disabled="false">
             <span class="MuiIconButton-label">
-            <input 
-            class="PrivateSwitchBase-input-12" 
-            type="checkbox" 
-            data-indeterminate="false" 
+            <input
+            class="PrivateSwitchBase-input-12"
+            type="checkbox"
+            data-indeterminate="false"
             value="allowExtraEmails"
             />
-            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+            <svg
+            style=" fill: currentColor;
+            width: 1em; 
+            height: 1em; 
+            display: inline-block; 
+            font-size: 1.5rem; 
+            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; 
+            flex-shrink: 0; 
+            user-select: none;"
+             class="MuiSvgIcon-root"
+             focusable="false" viewBox="0 0 24 24" aria-hidden="true">
             <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
             </path>
             </svg>
