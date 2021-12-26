@@ -80,6 +80,7 @@ impl Component for InputButton {
               text-indent: 0px;
               text-shadow: none;
               text-align: center;
+              background-color: red;
             "
           >
             <span
