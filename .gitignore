@@ -12,8 +12,8 @@ Cargo.lock
 /actix-web-server/target/
 /actix-web-server/Cargo.lock
 
-/axum-web-server/target/
-/axum-web-server/Cargo.lock
+/axum-server/target/
+/axum-server/Cargo.lock
 
 /druid-client/target/
 /druid-client/Cargo.lock
